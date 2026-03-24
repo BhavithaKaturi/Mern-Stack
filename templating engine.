@@ -1,0 +1,21 @@
+import { useState } from "react";
+
+function App() {
+  const name = "Manikanta";
+  const course = "MERN Stack";
+  const marks = 90;
+
+  return (
+    <div>
+      <h1>Student Details</h1>
+
+      <h2>Name: {name}</h2>
+      <h3>Course: {course}</h3>
+      <h3>Marks: {marks}</h3>
+
+      <p>Status: {marks >= 50 ? "Pass" : "Fail"}</p>
+    </div>
+  );
+}
+
+export default App;
